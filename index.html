@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Яндекс справочник</title>
+</head>
+<body>
+	<header>
+		<div class="header-top hline">
+			<div class="left-space">
+				<!-- <h1>Яндекс <span>Справочник</span></h1> -->
+				<div class="logo">
+					<div class="yandex-logo"></div>
+					<div class="dictionary-logo"></div>
+				</div>
+			</div>
+			<div class="header-search">
+				<input  type="text" name="search" placeholder="Название, телефон, сайт">
+				<button class="search-btn">Найти</button>
+			</div>
+			<div class="avatar">
+				<img src="images/woman.png">
+			</div>
+		</div>
+		<nav class="header-nav hline">
+			<div class="left-space"></div>
+			<div class="central-space">
+				<ul class="header-menu">
+					<li class="active"><a href="#">Мои организации</a></li>
+					<li><a href="#">Заявки на изменения</a></li>
+					<li><a href="#">Мои заказы</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="content">
+		<div class="left-space"></div>
+		<div class="central-space">
+			<div class="name-location">
+				<h1>Кафе Гладиатор</h1>
+				<div class="location">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<a href="#"> Страница на картах</a>
+				</div>
+			</div>
+			<nav class="section-menu">
+				<ul>
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Фото</a></li>
+					<li class="active"><a href="#">Отзывы</a></li>
+					<li><a href="#">Статистика</a></li>
+				</ul>
+			</nav>
+			<div class="rating">
+				<h3>12 отзывов об организации</h3>
+				<div class="arrow">9.8</div>
+			</div>
+			<article class="comment">
+				<div class="commentator_data">
+					<div><img src="images/comment_avatar.png"></div>
+					<div><h5>Василий Павлов</h5></div>
+					<div class="commentator_data__title"><date> &#183; 4 апреля 2016</date></div>
+					<div class="commentator_data__title"> &#183; оценка:</div>
+					<div class="like_icon"> <i class="fa fa-thumbs-up " aria-hidden="true"></i></div>
+				</div>
+				<p>
+					Очень давно знаю это место буквально со дня открытия и для нашей семьи в особенности ребенка, оно стало самым любимым. Здесь рай не только для взрослых по части вкусной итальянской кухни и романтики. 
+					<a href="#">читать полностью</a>
+				</p>
+				<div class="feedback">
+					<div><button>Ответить</button></div>
+					<div><button>Пожаловаться</button></div>
+					<div><a href="#">Ссылка на отзыв</a></div>
+				</div>
+			</article>
+			<article class="comment">
+				<div class="commentator_data">
+					<div><img src="images/avatar2.png"></div>
+					<div><h5>Илья Пряников</h5></div>
+					<div class="commentator_data__title"><date> &#183; 9 мая 2016</date></div>
+					<div class="commentator_data__title"> &#183; оценка:</div>
+					<div class="like_icon"> <i class="fa fa-thumbs-up " aria-hidden="true"></i></div>
+				</div>
+				<p>
+					Удивительное, хорошее место. Кухня на высоту. Интерьер крайне приятный, играет рояль каждый раз и для деток проводят мастер-классы. На радость родителям - бесплатно!
+				</p>
+				<div class="feedback">
+					<div><button>Ответить</button></div>
+					<div><button>Пожаловаться</button></div>
+					<div><a href="#">Ссылка на отзыв</a></div>
+				</div>
+			</article>
+			<article class="comment">
+				<div class="commentator_data">
+					<div><img src="images/avatar3.png"></div>
+					<div><h5>Лидия Никарагуа</h5></div>
+					<div class="commentator_data__title"><date> &#183; 23 октября 2016</date></div>
+					<div class="commentator_data__title"> &#183; оценка:</div>
+					<div class="diz_like_icon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></div>
+				</div>
+				<p>
+					Не понравилось. На Белорусской и Пролетарской как-то поуютнее, обстановка поприятнее. Маленький выбор пива, а цена на него большая. Лёффе 0.33 290р!!! Не очень понравилась еда. Брали фирменные бургеры. Мясо было пересоленное и переперченное. Плюс какое-то слишком жирное. В итоге, просуммировав все, считаю, что при нынешнем уровне качества заведения цены на еду и напитки должны быть снижены.
+				</p>
+				<div class="feedback">
+					<div><button class="active">Ответить</button></div>
+					<div><button>Пожаловаться</button></div>
+					<div><a href="#">Ссылка на отзыв</a></div>
+				</div>
+			</article>
+			<div class="write_review">
+				<h4>Напишите отзыв на отзыв</h4>
+				<div>
+					<textarea rows="6" cols="62" class = "add_comment"></textarea>
+					<span class="close"></span>
+				</div>
+				<button class="btn_review">Опубликовать</button>
+			</div>
+			<div>
+				<button class="btn_review all_review">Все 134 отзывов</button>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
